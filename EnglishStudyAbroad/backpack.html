@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backpacker</title>
+    <link rel="stylesheet" href="./style2.css">
+    <script src="https://kit.fontawesome.com/6393e82f91.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Back-Packer</h1>
+        <nav>
+            <a href="#link1">Link1</a>
+            <a href="#link2">Link2</a>
+            <a href="#link3">Link3</a>
+            <a href="#link4">Link4</a>
+        </nav>
+    </header>
+
+    <section class="section1">
+        <div id="link1">
+            <h1>Section 1</h1>
+            <div class="definition leftSide">
+                <h4>Who is a Back-Packer?</h4>
+                <p>A person who travels with a backpack and usually not spending <br>very much money and stay in places that are not expensive.</p>
+                <p>A journey to figure out who you really are and what you are looking for in your life. <br>This trip will definitely change your perspective and last not least your life.</p>
+            </div>
+            <div class="rightSide">
+                <img src="./Image/backpacker.jpg" alt="backpacker" style="width: 45vw;">
+            </div>
+        </div>
+    </section>
+
+    <section class="section2">
+        <div id="link2">
+            <h1>Section 2</h1>
+            <div class="transferMethod leftSide">
+                <h4>What's the Transfer Method for a back-packer?</h4>
+                <p>The bus is the major method and the best one  since you get to enjoy the views</p>
+                <p><a href="https://global.flixbus.com/" target="_blank">Flixbus.com</a></p>
+                <p>This is the bus website where you can get a good deal on bus travels.</p>
+            </div>
+        </div>
+        <div class="rightSide">
+            <img src="./Image/buspic.jpeg" alt="bus">
+        </div>
+    </section>
+
+    <section class="section3">
+        <div id="link3">
+            <h1>Section 3</h1>
+            <div class="expense">
+                <h4>What's the expense for a month?</h4>
+                <p>You  might not believe how much it would cost being a back-packer for a month...</p>
+                <ul>
+                    <li>Stay: 1000,000 yen</li>
+                    <li>Food: 60,000 yen</li>
+                    <li>transportation: 50,000 yen</li>
+                    <li>Etc: 20,000 yen</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section4">
+        <div id="link4">
+            <h1>Section 4</h1>
+            <div class="toBeCareful leftSide">
+                <h4>Things to be careful about while being a back-packer</h4>
+                <ol>
+                    <li>Know the dangerous areas</li>
+                    <li>Do not go out once the sun is down</li>
+                    <li>Don't push yourself if you are not feeling well</li>
+                    <li>Know manners on each country you are visiting</li>
+                </ol>
+            </div>
+            <div class="rightSide">
+                <img src="./Image/caution.jpg" alt="dangerous zone to enter" style="width: 45vw;">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h3>Get in Touch</h3>
+        <div class="footerContainer">
+          <div class="ourInfo">
+            <p>
+              email: test@gmail.com<br>
+              tel: 012-3456-7890
+            </p>
+            <p><strong>Social Media:</strong></p>
+            <div id="socialMedia">
+              <div class="instagram"><i class="fa-brands fa-instagram"></i></div>
+              <div class="twitter"><i class="fa-brands fa-twitter"></i></div>
+              <div class="facebook"><i class="fa-brands fa-facebook-f"></i></div>
+            </div>
+          </div>
+  
+          <form action="./comments_confirmation.php" method="post">
+            <label for="name">Name: </label>
+            <input type="text" id="name" min="2" required>
+            <br>
+            <label for="email">email: </label>
+            <input type="email" id="email" required>
+            <br>
+            <label for="phoneNum">tel: </label>
+            <input type="text" id="phoneNum" [0-9]>
+            <br>
+            <label for="textArea">If there's any doubt or questions, write down below...</label>
+            <br>
+            <textarea name="textArea" id="textArea" cols="50" rows="5"></textarea>
+            <br>
+            <button type="submit" name="submit">Submit</button>
+          </form>
+        </div>
+    </footer>
+</body>
+</html>
+
+

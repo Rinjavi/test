@@ -1,0 +1,84 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header img {
+    height: 35%;
+    width: 25%;
+}
+
+header nav {
+    background: #000000;
+    padding: 10px;
+}
+
+header nav a {
+    text-decoration-line: none;
+    color: white;
+}
+
+header nav a {
+    margin-left: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    align-items: baseline;
+}
+
+.leftside {
+    width: 65%;
+    padding: 10px;
+}
+
+.leftside h1 {
+    border-left: 5px solid black;
+    border-bottom: 2px solid black;
+}
+
+form, .showsTitle{
+    background: rgb(212, 212, 212);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+form h3 {
+    border-left: 3px solid red;
+    margin-left: 5px;
+    letter-spacing: .25rem;
+}
+
+form label, input, textarea, button{
+    margin: 10px;
+}
+
+.rightside {
+    width: 25%;
+    height: 75vh;
+    padding: 10px;
+}
+
+.rightside h4 {
+    border-bottom: 1px dotted black;
+}
+
+.rightside ul li {
+    list-style: none;
+    line-height: 1.5rem;
+}
+
+footer {
+    background: #000000;
+    width: 100%;
+    color: white;
+    bottom: 0;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
